@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CRUDApplication_AramHernandez.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset=”utf-8″>
+
+    <title>Aram Crud App</title>
+    <link href=”~/lib/twitter-bootstrap/css/bootstrap.css” rel=”stylesheet”/>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         
+        
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">                    
+                    <a class="navbar-brand" runat="server" href="~/">CRUD App Aram Hernandez</a>
+                </div>                
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
